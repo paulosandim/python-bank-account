@@ -23,4 +23,17 @@ class Account:
         self.withdraw(value_account)
         destiny.deposit(value_account)
         
-        
+    def get_balance(self):
+        return self.__balance
+    
+    def get_owner(self):
+        return self.__owner
+    
+    def get_limit_account(self):
+        return self.__limit_account
+    
+    def set_limit_account(self, limit_account):
+        self.__limit_account = limit_account
+    
+    
+    
